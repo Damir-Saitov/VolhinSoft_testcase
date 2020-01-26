@@ -3,12 +3,10 @@
         {
             "id": 1,
             "title": "first",
-            "order": [2, 3, 1],
             "cols": [
                 {
                     "id": 1,
                     "title": "first col",
-                    "order": [1, 2, 3],
                     "cards": [
                         {
                             "id": 1,
@@ -30,20 +28,19 @@
                 {
                     "id": 2,
                     "title": "col after first",
-                    "order": [1, 2, 3],
                     "cards": [
                         {
-                            "id": 1,
+                            "id": 4,
                             "title": "cardFirst",
                             "text": "camelCase"
                         },
                         {
-                            "id": 2,
+                            "id": 5,
                             "title": "card_2",
                             "text": "snake_case"
                         },
                         {
-                            "id": 3,
+                            "id": 6,
                             "title": "card-1",
                             "text": "kebab-case"
                         }
@@ -52,20 +49,19 @@
                 {
                     "id": 3,
                     "title": "another one col",
-                    "order": [1, 2, 3],
                     "cards": [
                         {
-                            "id": 1,
+                            "id": 7,
                             "title": "Вот",
                             "text": "тут"
                         },
                         {
-                            "id": 2,
+                            "id": 8,
                             "title": "уже",
                             "text": "стало"
                         },
                         {
-                            "id": 3,
+                            "id": 9,
                             "title": "лень",
                             "text": "придумывать"
                         }
@@ -76,12 +72,10 @@
         {
             "id": 2,
             "title": "second",
-            "order": [1, 2, 3],
             "cols": [
                 {
                     "id": 1,
                     "title": "morning",
-                    "order": [1, 2, 3],
                     "cards": [
                         {
                             "id": 1,
@@ -103,20 +97,19 @@
                 {
                     "id": 2,
                     "title": "day",
-                    "order": [1, 2, 3],
                     "cards": [
                         {
-                            "id": 1,
+                            "id": 4,
                             "title": "work",
                             "text": "work"
                         },
                         {
-                            "id": 2,
+                            "id": 5,
                             "title": "lunch",
                             "text": "nourising"
                         },
                         {
-                            "id": 3,
+                            "id": 6,
                             "title": "work",
                             "text": "many work"
                         }
@@ -125,20 +118,19 @@
                 {
                     "id": 3,
                     "title": "evening",
-                    "order": [1, 2, 3],
                     "cards": [
                         {
-                            "id": 1,
+                            "id": 7,
                             "title": "from job",
                             "text": "by public transport"
                         },
                         {
-                            "id": 2,
+                            "id": 8,
                             "title": "supper",
                             "text": "delicious"
                         },
                         {
-                            "id": 3,
+                            "id": 9,
                             "title": "sleep",
                             "text": "go to work tomorrow"
                         }
