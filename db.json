@@ -2,7 +2,7 @@
     "boards": [
         {
             "id": 1,
-            "name": "first",
+            "title": "first",
             "order": [2, 3, 1],
             "cols": [
                 {
