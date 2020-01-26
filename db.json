@@ -75,7 +75,7 @@
         },
         {
             "id": 2,
-            "name": "second",
+            "title": "second",
             "order": [1, 2, 3],
             "cols": [
                 {
