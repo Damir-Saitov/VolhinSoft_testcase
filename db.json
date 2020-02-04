@@ -1,67 +1,54 @@
 {
     "boards": [
         {
-            "id": 1,
             "title": "first",
             "cols": [
                 {
-                    "id": 1,
                     "title": "first col",
                     "cards": [
                         {
-                            "id": 1,
                             "title": "first card",
                             "text": "some text"
                         },
                         {
-                            "id": 2,
                             "title": "second card",
                             "text": "so-some text"
                         },
                         {
-                            "id": 3,
                             "title": "third card",
                             "text": "many text"
                         }
                     ]
                 },
                 {
-                    "id": 2,
                     "title": "col after first",
                     "cards": [
                         {
-                            "id": 4,
                             "title": "cardFirst",
                             "text": "camelCase"
                         },
                         {
-                            "id": 5,
                             "title": "card_2",
                             "text": "snake_case"
                         },
                         {
-                            "id": 6,
                             "title": "card-1",
                             "text": "kebab-case"
                         }
                     ]
                 },
                 {
-                    "id": 3,
                     "title": "another one col",
                     "cards": [
                         {
-                            "id": 7,
                             "title": "Вот",
                             "text": "тут"
                         },
                         {
-                            "id": 8,
                             "title": "уже",
                             "text": "стало"
                         },
                         {
-                            "id": 9,
                             "title": "лень",
                             "text": "придумывать"
                         }
@@ -70,67 +57,54 @@
             ]
         },
         {
-            "id": 2,
             "title": "second",
             "cols": [
                 {
-                    "id": 1,
                     "title": "morning",
                     "cards": [
                         {
-                            "id": 1,
                             "title": "toilet",
                             "text": "censure"
                         },
                         {
-                            "id": 2,
                             "title": "breakfast",
                             "text": "delicious"
                         },
                         {
-                            "id": 3,
                             "title": "to job",
                             "text": "by public transport"
                         }
                     ]
                 },
                 {
-                    "id": 2,
                     "title": "day",
                     "cards": [
                         {
-                            "id": 4,
                             "title": "work",
                             "text": "work"
                         },
                         {
-                            "id": 5,
                             "title": "lunch",
                             "text": "nourising"
                         },
                         {
-                            "id": 6,
                             "title": "work",
                             "text": "many work"
                         }
                     ]
                 },
                 {
-                    "id": 3,
                     "title": "evening",
                     "cards": [
                         {
-                            "id": 7,
                             "title": "from job",
                             "text": "by public transport"
                         },
                         {
-                            "id": 8,
                             "title": "supper",
                             "text": "delicious"
                         },
                         {
-                            "id": 9,
                             "title": "sleep",
                             "text": "go to work tomorrow"
                         }
