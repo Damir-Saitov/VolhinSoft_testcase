@@ -1,26 +1,32 @@
-import Vue from 'vue'
-import App from './App.vue'
-import Router from 'vue-router'
-import Dragula from 'vue-dragula'
+import Vue from 'vue';
+import App from './App.vue';
+import Router from 'vue-router';
 
-import index from './page/index.vue'
-import board from './page/board.vue'
+import vuetify from './plugins/vuetify';
+import {store} from '../store/index';
+
+import index from './pages/index';
+import board from './pages/board';
+import e404 from './pages/e404';
 
 Vue.use(Router);
-Vue.use(Dragula);
-
 const router = new Router({
     routes: [
         {
             path: '/',
+            alias: '/board',
             name: 'index',
-            component: index
+            component: index,
         },
         {
             path: '/board/:id',
             name: 'board',
             component: board,
-            props: true
+            props: true,
+        },
+        {
+            path: '*',
+            component: e404,
         }
     ],
     mode: 'history'
@@ -29,5 +35,7 @@ const router = new Router({
 new Vue({
     el: '#app',
     render: h => h(App),
-    router
+    router,
+    store,
+    vuetify
 });
