@@ -2,7 +2,7 @@
 <div>
     <div v-if="!adding"
             @click="startAdding"
-            class="curtain duration"
+            class="curtain blue"
     ></div>
     <form v-else
             @submit.prevent="addBoard"
@@ -62,8 +62,7 @@ export default {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: aqua;
-    border-radius: 10px;
+    border-radius: 9px;
     cursor: pointer;
 }
 .curtain::before, .curtain::after {
