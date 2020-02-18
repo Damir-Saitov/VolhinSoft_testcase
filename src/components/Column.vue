@@ -10,10 +10,10 @@
                    @change="change"
         >
             <Card v-for="card in column.cards"
-                :key="card.id"
-                :body="card.body"
-                @update="$emit('changeCardBody', {id: card.id, body: $event})"
-                @delete="$emit('deleteCard', card.id)"
+                  :key="card.id"
+                  :body="card.body"
+                  @update="$emit('changeCardBody', {id: card.id, body: $event})"
+                  @delete="$emit('deleteCard', card.id)"
             >
             </Card>
         </draggable>

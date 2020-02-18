@@ -21,8 +21,7 @@
             <span>X</span>
         </button>
     </div>
-    <router-link
-        :to="{name: 'board', params: {id: board.id}}"
+    <router-link :to="{name: 'board', params: {id: board.id}}"
     >
         <ul class="tables_title ma-0 pa-2">
             <li v-for="column in board.columns"

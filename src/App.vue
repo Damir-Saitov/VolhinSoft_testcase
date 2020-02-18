@@ -1,9 +1,9 @@
 <template>
-    <v-app>
-        <v-content class="overflow">
-            <router-view></router-view>
-        </v-content>
-    </v-app>
+<v-app>
+    <v-content class="overflow">
+        <router-view></router-view>
+    </v-content>
+</v-app>
 </template>
 
 <script>

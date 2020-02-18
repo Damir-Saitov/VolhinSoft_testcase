@@ -1,17 +1,15 @@
 <template>
 <div class="d-flex flex-wrap pa-5">
-    <DemoBoard
-        v-for="board in boards"
-        :key="board.id"
-        :board="board"
-        @changename="changeBoardName({id: board.id, name: $event})"
-        @delete="deleteBoard(board.id)"
-        class="board"
+    <DemoBoard v-for="board in boards"
+               :key="board.id"
+               :board="board"
+               @changename="changeBoardName({id: board.id, name: $event})"
+               @delete="deleteBoard(board.id)"
+               class="board"
     >
     </DemoBoard>
-    <AddBoard
-        @add="addBoard"
-        class="board"
+    <AddBoard @add="addBoard"
+              class="board"
     >
     </AddBoard>
 </div>

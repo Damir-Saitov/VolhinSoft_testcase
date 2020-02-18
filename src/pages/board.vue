@@ -7,9 +7,7 @@
     >
         <v-btn @click="onBoardPage"
                :depressed="true"
-        >
-            Back
-        </v-btn>
+        >Back</v-btn>
         <v-btn :depressed="true"
                @click="columnSwap = !columnSwap"
                :class="buttonSwapClass"

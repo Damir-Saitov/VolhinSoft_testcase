@@ -1,31 +1,31 @@
 <template>
 <div>
     <div v-if="!adding"
-            @click="startAdding"
-            class="curtain blue"
+         @click="startAdding"
+         class="curtain blue"
     ></div>
     <form v-else
-            @submit.prevent="addBoard"
-            class="input_data"
+          @submit.prevent="addBoard"
+          class="input_data"
     >
         <v-btn :absolute="true"
-                :right="true"
-                :top="true"
-                @click="adding = false"
+               :right="true"
+               :top="true"
+               @click="adding = false"
         >close</v-btn>
         <v-text-field :autofocus="true"
-                        :filled="true"
-                        :clearable="true"
-                        :outlined="true"
-                        @change="name = $event"
-                        label="Input name"
-                        class="text_field"
+                      :filled="true"
+                      :clearable="true"
+                      :outlined="true"
+                      @change="name = $event"
+                      label="Input name"
+                      class="text_field"
         >
         </v-text-field>
         <v-btn :elevation="0"
-                @click="addBoard"
-                :large="true"
-                class="add_btn blue lighten-2"
+               @click="addBoard"
+               :large="true"
+               class="add_btn blue lighten-2"
         >Add</v-btn>
     </form>
 </div>
